@@ -29,11 +29,10 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. Describe the biggest difference between `.forEach` & `.map`.
-    A forEach method is used for looping through a function of elements. It’s best used to replace the for loop. Using the map method allows you to create a new array of elements
-    based of of the variable you are mapping from. Both array methods are immutable.
+    A forEach method is used for looping through a variable while changing those data set values, It’s best used to replace the for loop. Using the map method allows you to create a new array of elements based of of the variable you are mapping from.
 
 2. What is the difference between a function and a method?
-        A function is code that has special scoping and special task that can be used when called. A method pertains to a function and allows for manipulation	of data that are passed into the function. There are several built in function methods, but you can also create your own. 
+        A function is code that has special scoping and special task that can be used when called. A method pertains to manipulating object. There are several built in  methods, but you can also create your own. In the grand scheme of Javascript, everything is an object, so functions and methods are 'somewhat' related
 
 3. What is closure?
     A closer has to do about the ‘enclosed scope’. This has to do with understanding how scoping effects return values. Functions will go upward in the chain of nesting to find variables if they are being called.This can best be seen in a nested function and looking at what nested functions have access to their parent functions and also the global scope.
