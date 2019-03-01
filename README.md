@@ -29,14 +29,23 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. Describe the biggest difference between `.forEach` & `.map`.
+    A forEach method is used for looping through a function of elements. It’s best used to replace the for loop. Using the map method allows you to create a new array of elements
+    based of of the variable you are mapping from. Both array methods are immutable.
 
 2. What is the difference between a function and a method?
+        A function is code that has special scoping and special task that can be used when called. A method pertains to a function and allows for manipulation	of data that are passed into the function. There are several built in function methods, but you can also create your own. 
 
 3. What is closure?
+    A closer has to do about the ‘enclosed scope’. This has to do with understanding how scoping effects return values. Functions will go upward in the chain of nesting to find variables if they are being called.This can best be seen in a nested function and looking at what nested functions have access to their parent functions and also the global scope.
 
 4. Describe the four rules of the 'this' keyword.
+    1. Window binding, this has to do with the ‘global’ binding to the window.
+	2. New binding, create new objects and bind the this keyword
+	3. implicit Binding, object specific binding with this keyword to an object.
+	4. Explicit Binding, function specific, (apply, bind, call) binding with this keyword.
 
 5. Why do we need super() in an extended class?
+    	using super allows for that class that is being extended to a parent class to inherit all of its props. It allows for simplification of code, and easier understanding of what is being inherited. Without calling super in the constructor, that extended class wouldn't inherit the parent classes props.
 
 ## Project Set up
 
